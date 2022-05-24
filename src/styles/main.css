@@ -1,0 +1,25 @@
+@import "navbar.css";
+@import "buttons.css";
+@import "sl-forms.css";
+@import "index.css";
+@import "item.css";
+@import "cart.css";
+@import "misc.css";
+@import "checkout.css";
+@import "about.css";
+@import "my_orders.css";
+@import "db-form.css";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+

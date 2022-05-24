@@ -1,0 +1,14 @@
+.item {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.item img {
+  width: 100%;
+}
+
+.item .item-description {
+  display: flex;
+  justify-content: space-between;
+}

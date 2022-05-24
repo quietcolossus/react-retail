@@ -1,0 +1,62 @@
+.db-form {
+    width: 600px;
+    /* height: 600px; */
+    /* background-color: salmon; */
+  }
+  
+  .db-form * {
+    box-shadow: none !important;
+  }
+  
+  .db-form h2 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .field-block {
+    width: 100%;
+    height: 60px;
+  
+    display: flex;
+    flex-direction: column;
+  
+    margin-bottom: 3px;
+  }
+
+  .db-form h3 {
+    font-size: 17px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .input-block {
+    margin-bottom: 20px;
+  }
+
+  select {
+    height: 30px;
+    width: 200px;
+  }
+
+  input.main-button {
+    margin: 0px 15px 0 5px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+  }
+  
+  input.main-button:hover {
+    color: dimgray;
+  }
+  
+  .db-form .form-action {
+    margin-top: 20px;
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+  }
+  

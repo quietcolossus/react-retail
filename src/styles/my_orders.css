@@ -1,0 +1,27 @@
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1400px;
+  padding: 40px 0;
+}
+
+.orders-container h2 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.orders-container h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.orders-container .items-container {
+  padding: 40px 0;
+}
+.orders-container .order-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 40px;
+}

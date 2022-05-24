@@ -1,0 +1,93 @@
+.sl-form {
+  width: 600px;
+  /* height: 600px; */
+  /* background-color: salmon; */
+}
+
+.sl-form * {
+  box-shadow: none !important;
+}
+
+.sl-form h2 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.field-block {
+  width: 100%;
+  height: 60px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 3px;
+}
+
+.field-block label {
+  margin-bottom: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.field-block input {
+  height: 33px;
+  border: none;
+  border-bottom: 1px solid dimgray;
+  background-color: rgba(0,0,0,0.02);
+  outline: none;
+
+  transition: background-color 0.3s ease-in-out;
+}
+
+.field-block input:focus {
+  background-color: rgba(0,0,0,0);
+}
+
+.sl-form .double-block {
+  display: flex;
+
+  width: 100%;
+
+
+  justify-content: space-between;
+/* 
+  background-color: burlywood; */
+}
+
+.sl-form .triple-block {
+  display: flex;
+
+  width: 100%;
+
+
+  justify-content: space-between;
+}
+
+.sl-form .double-block .field-block {
+  width: 48%;
+}
+
+.sl-form .triple-block .field-block {
+  width: 30%;
+}
+
+input.main-button {
+  margin: 0px 15px 0 5px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.15s ease-in-out;
+}
+
+input.main-button:hover {
+  color: dimgray;
+}
+
+.sl-form .form-action {
+  margin-top: 20px;
+  /* height: 60px; */
+  display: flex;
+  align-items: center;
+}
